@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB56ECDA20912AF8005BD59B /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56ECD920912AF8005BD59B /* Wage.swift */; };
+		FB56ECDB20912C4A005BD59B /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56ECD920912AF8005BD59B /* Wage.swift */; };
 		FBC294F12024B2240059B6A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC294F02024B2240059B6A2 /* AppDelegate.swift */; };
 		FBC294F32024B2240059B6A2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC294F22024B2240059B6A2 /* MainVC.swift */; };
 		FBC294F62024B2240059B6A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC294F42024B2240059B6A2 /* Main.storyboard */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB56ECD920912AF8005BD59B /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		FBC294ED2024B2240059B6A2 /* app-window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC294F02024B2240059B6A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC294F22024B2240059B6A2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB56ECD820912AE6005BD59B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB56ECD920912AF8005BD59B /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBC294E42024B2240059B6A2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +110,7 @@
 		FBC294EF2024B2240059B6A2 /* app-window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				FB56ECD820912AE6005BD59B /* Model */,
 				FBC2951F2024B4570059B6A2 /* View */,
 				FBC2951E2024B3690059B6A2 /* Controller */,
 				FBC294F02024B2240059B6A2 /* AppDelegate.swift */,
@@ -279,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC294F32024B2240059B6A2 /* MainVC.swift in Sources */,
+				FB56ECDA20912AF8005BD59B /* Wage.swift in Sources */,
 				FBC294F12024B2240059B6A2 /* AppDelegate.swift in Sources */,
 				FBC295212024B48D0059B6A2 /* CurrencyTestField.swift in Sources */,
 			);
@@ -289,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC295062024B2240059B6A2 /* app_window_shopperTests.swift in Sources */,
+				FB56ECDB20912C4A005BD59B /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
